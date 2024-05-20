@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your Rights: Protests</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <h1>Know Your Rights: Protests and the NYPD</h1>
+</header>
+<main>
+    <div id="progress-container" style="display:none;">
+        <div id="progress-bar"></div>
+    </div>
+    <section id="introduction" class="card">
+        <h2>Understanding Your Rights During Protests</h2>
+        <p>In recent weeks, college campuses across New York City, including the City College of New York (CUNY), have seen significant student protests primarily focused on pro-Palestinian soldarity and divestment from support of Israel. The protests, which began in mid-April 2024, have involved encampments and marches, leading to confrontations with the New York Police Department (NYPD) and over 170 arrests at City College alone. The altercations in many of these protests highlight the importance of knowing your rights and learning how to interact with law enforcement.</p>
+        
+        <h3>Know Your Rights</h3>
+        <ul>
+            <li><strong>Right to Peaceful Assembly:</strong> You have the right to peacefully assemble and protest. However, you must comply with lawful orders from police officers, such as dispersal commands, to avoid charges like disorderly conduct.</li>
+            <li><strong>Identification:</strong> You are not required to show ID unless you are being lawfully detained or arrested. If asked for ID, you can inquire if you are being detained.</li>
+            <li><strong>Recording the Police:</strong> You have the right to record police activities in public spaces, as long as you do not interfere with their operations.</li>
+            <li><strong>During an Arrest:</strong> If arrested, remain silent and ask for a lawyer. Do not resist arrest, as this can lead to additional charges.</li>
+        </ul>
+
+        <h3>Take the Quiz</h3>
+        <p>To better understand your rights and how to handle interactions with law enforcement during protests, take this interactive quiz. It's a valuable tool to test your knowledge and prepare for real-world scenarios if you decide to participate in protests. Additionally, explore the provided resources for further information on your legal rights and best practices during protests.</p>
+
+        <p>For more detailed information and further guidance, please refer to additional resources available at the end of the quiz.</p>
+        
+        <button id="start-quiz">Start Quiz</button>
+    </section>
+    <section id="quiz-questions" class="card" style="display:none;">
+        <h2 id="question-title"></h2>
+        <div id="options" class="options"></div>
+        <div class="button-container">
+            <button id="submit-answer" style="display:none;">Submit Answer</button>
+            <button id="next-question" style="display:none;">Next Question</button>
+        </div>
+    </section>
+    <section id="quiz-results" class="card" style="display:none;">
+        <h2>Quiz Results</h2>
+        <p id="result-explanation"></p>
+        <div class="center-button">
+            <button id="retake-quiz">Retake Quiz</button>
+        </div>
+        
+        <h3>Share Your Results</h3>
+        <p>Help raise awareness by sharing your quiz results on social media.</p>
+        <div class="social-buttons">
+            <button id="share-twitter" class="social-button"><i class="fab fa-twitter"></i></button>
+            <button id="share-facebook" class="social-button"><i class="fab fa-facebook-f"></i></button>
+            <button id="share-whatsapp" class="social-button"><i class="fab fa-whatsapp"></i></button>
+            <button id="share-email" class="social-button"><i class="fas fa-envelope"></i></button>
+            <button id="share-sms" class="social-button"><i class="fas fa-sms"></i></button>
+        </div>
+        
+        <h3>Feedback</h3>
+        <p>Please let us know what you found helpful or confusing about the quiz. What other 'Know Your Rights' topics would you like to see a quiz for?</p>
+        <div class="center-button">
+            <textarea id="feedback-input" rows="4" cols="50" placeholder="Enter your feedback here..."></textarea>
+        </div>
+        <div class="center-button">
+            <button id="submit-feedback" class="button">Submit Feedback</button>
+        </div>
+        
+        <h3>Resources</h3>
+        <ul id="resources-list">
+            <li><a href="https://www.nyc.gov/site/ccrb/complaints/file-a-complaint/file-online.page">File a Complaint of Police Misconduct</a></li>
+            <li><a href="https://www.aclu.org/know-your-rights/protesters-rights">ACLU: Protesters' Rights</a></li>
+            <li><a href="https://www.nlg.org/know-your-rights/">National Lawyers Guild: Know Your Rights</a></li>
+            <li><a href="https://ccrjustice.org/know-your-rights-protest">Center for Constitutional Rights: Know Your Rights at Protests</a></li>
+            <li><a href="https://www.hrw.org/news/2020/06/02/us-protect-rights-protesters">Human Rights Watch: Protecting Protesters' Rights</a></li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <p>This interactive quiz is for educational purposes only, not legal advice. © 2024 Yunior Rivas Garcia</p>
+</footer>
+<script defer src="quiz.js"></script>
+</body>
+</html>
