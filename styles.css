@@ -407,6 +407,7 @@ social-button.email:hover {
 
     h2, h3 {
         font-size: 20px;
+        text-align: center;
     }
 
     p, li, button, .option-button {
