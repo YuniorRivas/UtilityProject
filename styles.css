@@ -88,6 +88,10 @@ main {
     border-top-right-radius: 0;
 }
 
+#progress-bar {
+        height: 15px;
+    }
+
 .option-button {
     display: block;
     width: 100%;
@@ -154,6 +158,30 @@ main {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Add these styles to your existing CSS */
+
+#progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 20px;
+    background: linear-gradient(90deg, #007ba7, #005a87);
+    transition: width 0.4s ease;
 }
 
 .center-button {
@@ -416,4 +444,3 @@ social-button.email:hover {
         min-height: 100vh; 
     }
 }
-
