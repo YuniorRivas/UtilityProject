@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             question: "During a protest, a police officer tells you that using a megaphone is illegal. What should you do?",
             answers: [
                 { text: "Use the megaphone louder to challenge the claim", correct: false, explanation: "Using the megaphone louder can lead to arrest for disorderly conduct if it's indeed illegal." },
-                { text: "Stop using the megaphone and check the local ordinances later", correct: true, explanation: "Stopping megaphone use and checking the local ordinances later complies temporarily and avoids potential charges for violating noise ordinances or similar regulations." },
+                { text: "Stop using the megaphone and check the local ordinances later", correct: true, explanation: "Ceasing megaphone use and checking the local ordinances later complies temporarily and avoids potential charges for violating noise ordinances or similar regulations." },
                 { text: "Hand the megaphone to another protester", correct: false, explanation: "Handing the megaphone to another protester doesn't address the legal issue and could contribute to their risk." },
                 { text: "Argue with the officer about your rights", correct: false, explanation: "Arguing about rights on the spot is unlikely to change the officer's enforcement at that moment and may escalate the situation." }
             ]
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             question: "You want to bring a sign to a protest in NYC. Which material should you use for the sign's handle?",
             answers: [
-                { text: "Cardboard tubing", correct: true, explanation: "Using a less rigid and potentially harmful material avoids violating protest rules regarding potential weapons." },
+                { text: "Cardboard tubing", correct: true, explanation: "Using a less rigid material avoids violating protest rules regarding potential weapons." },
                 { text: "A thin wooden stick", correct: false, explanation: "A thin wooden stick can be considered a weapon by law enforcement." },
                 { text: "Plastic piping", correct: false, explanation: "Plastic piping might also be viewed as a potential weapon." },
                 { text: "A retractable selfie stick", correct: false, explanation: "A retractable selfie stick can be seen as a weapon and might be banned in some protest scenarios." }
